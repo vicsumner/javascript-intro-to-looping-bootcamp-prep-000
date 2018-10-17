@@ -27,18 +27,7 @@ return "done"
 //   return array
 // }
 
-function doWhileLoop(array){
-  var i = 0;
-  function incrementVariable() {
-  i = i + 1;
-  do{
-    // array.pop(i);
-    incrementVariable()
-    return array
-}
-  while (array.length > 0 && incrementVariable());
-  
-}
+
   
 }
 
