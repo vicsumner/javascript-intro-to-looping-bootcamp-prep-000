@@ -8,7 +8,6 @@ function forLoop(array){
   }
   }
     return array
-
 }
 
 function whileLoop(n){
@@ -17,3 +16,4 @@ function whileLoop(n){
 }
 return "done"
 }
+
