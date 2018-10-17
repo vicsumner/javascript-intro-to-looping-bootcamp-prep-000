@@ -17,7 +17,7 @@ function whileLoop(n){
 return "done"
 }
 
-// var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"]
 // var myBest = fruits.slice(-3, -1);
 
 function doWhileLoop(array){
