@@ -17,14 +17,14 @@ function whileLoop(n){
 return "done"
 }
 
-function doWhileLoop(anArray){
+function doWhileLoop(){
   var i = 0;
   function incrementVariable() {
   i = i + 1;
+  do{
+  array.length > 0 && incrementVariable()
 }
- 
-  do {
-  console.log("doo-bee-doo-bee-doo");
-  incrementVariable();
-} while (i < 5);
+  while (i < 5);
+}
+  return i
 }
