@@ -22,14 +22,11 @@ return "done"
 
 function doWhileLoop(array){
   var i = 0;
-  function incrementVariable() {
-  i = i + 1;
   do{
     array.pop(i);
 }
-  while (i < 5);
-  array.length > 0 && incrementVariable()
-  and we need to replace i < 5 with array.length > 0
+  while array.length > 0 && incrementVariable()
+
 }
   return array
 }
