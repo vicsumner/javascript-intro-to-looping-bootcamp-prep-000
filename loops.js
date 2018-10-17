@@ -17,16 +17,14 @@ function whileLoop(n){
 return "done"
 }
 
-// var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"]
-// var myBest = fruits.slice(-3, -1);
-
 function doWhileLoop(array){
   var i = 0;
   do{
     array.pop(i);
 }
   while (array.length > 0 && incrementVariable())
-
 }
   return array
 }
+
+
