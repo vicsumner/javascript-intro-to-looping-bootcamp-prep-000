@@ -25,9 +25,17 @@ return "done"
 //   while (array.length > 0 && incrementVariable())
 // }
 //   return array
-// }
+// 
 
-
-  
+function doWhileLoop(array){
+    function incrementVariable() {
+      var i = 0
+      i = i + 1
+  }
+   do {
+    array.pop()
+    incrementVariable()
+    return array
+  } while (array.length > 0 && incrementVariable())
 }
 
