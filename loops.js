@@ -29,6 +29,7 @@ function doWhileLoop(array){
 }
   while (i < 5);
   array.length > 0 && incrementVariable()
+  and we need to replace i < 5 with array.length > 0
 }
   return array
 }
